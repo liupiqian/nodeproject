@@ -1,0 +1,12 @@
+body{width: 100%;height: 100%;background:url(../images/1.png) no-repeat;background-size: cover;}
+.login{opacity: 0.9;width: 500px;height: 500px;position: fixed;left: 0;top: 0;right: 0;bottom: 0;margin: auto;}
+h1{font-size: 40px;color: #FF0000;margin-left:32px;margin-bottom: 25px;}
+.con{background:#E7E1CD;width: 400px;height: 320px;padding-top: 30px;border: 1px solid #ccc;border-radius: 10px;}
+.top{width: 260px;margin:0 auto;margin-bottom: 20px;}
+.top p{position: relative;}
+.top p i{position: absolute;left: 4px;top: 11px;font-size: 24px;}
+.yzm{color: #fff;font-size: 16px;font-family: "ms outlook";border-radius:6px ;background: red;position: absolute;right: 8px; top: 8px;display: inline-block;height: 35px;width: 80px;text-align: center;line-height: 35px;}
+.top input{padding-left:30px;height: 50px;width: 230px;border:1px solid #ccc;border-radius: 5px 5px 0 0;}
+.btn{margin:0 auto;margin-bottom:10px;width: 260px;height: 45px;background: #DF5000;text-align: center;line-height: 45px;color: #fff;font-size: 18px;border-radius: 5px;}
+.btm{align-items: center;margin: 0 auto;display: flex;justify-content: space-around;width: 260px;font-size: 12px;height: 30px;}
+.mi{color: #55A532;}

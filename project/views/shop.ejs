@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_535025_6pufltvv90yvte29.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/common.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/shop.css" />
+	</head>
+	
+	<body>
+		<div class="top">
+			<h1>BOSS商城管理系统</h1>
+		</div>
+		<!--左侧列表！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+		<%- include left.ejs %>
+		<div class="con"></div>
+		<!--点击编辑-->
+		
+		<!--商品列表！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+		<div id="right">
+			<div class="right0">
+				<img src="images/4.png" />
+			</div>
+			<!--商品列表！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+			<%- include right.ejs %>
+			<!--添加商品信息！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+			<%- include right2.ejs %>
+		</div>
+			<%- include bianji.ejs %>
+	</body>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/shop.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/addgood.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

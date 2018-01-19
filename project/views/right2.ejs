@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+	</head>
+	<body>
+		<div class="right2 ri">
+			<div class="r-top">
+				<h2>BOSS 管理中心 - 添加新商品</h2>
+				<p>+ 商品列表</p>
+			</div>
+			<div class="content">
+				<div class="content_top">
+					<ul class="con_top">
+						<li class="one">通用信息</li>
+						<li>详细描述</li>
+						<li>其他信息</li>
+						<li>商品属性</li>
+						<li>商品相册</li>
+					</ul>
+				</div>
+				<!--！！！！！！！通用信息！！！！！！！！！！！！！！！-->
+				
+				
+				
+			<div class="boss">
+				<div class="qie">
+					<ul class="con_con">
+						<li>
+							<p>商品名称 :</p>
+							<div class="jj">
+								<div><input type="text" id="goodName"  /></div>
+							</div>
+						</li>
+						<li>
+							<p>商品货号 :</p>
+							<div class="jj">
+								<div><input type="text" id="goodNum" /></div>
+								<div>如果您不输入商品货号，系统将自动生成一个唯一的货号</div>
+							</div>
+						</li>
+						<li>
+							<p>商品分类 :</p>
+							<div class="jj">
+								<div class="xuan">
+									<select name="请选择...">
+										<option value="">嘻嘻</option>
+									</select>
+									<button>添加分类</button>
+								</div>
+							</div>
+						</li>
+						<li>
+							<p>商品品牌 :</p>
+							<div class="jj">
+								<div class="xuan">
+									<select name="请选择...">
+										<option value="">嘻嘻</option>
+									</select>
+									<button>添加品牌</button>
+								</div>
+							</div>
+						</li>
+							<li>
+								<p>本店售价 :</p>
+								<div class="jj">
+									<div>
+										<input type="text" id="goodPrice"  />
+										<button>添加品牌</button>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>会员价格 :</p>
+								<div class="jj">
+									<div class="xiao">
+										注册用户<input type="text" value="-1" id="zhu" /> 代销用户
+										<input type="text" value="-1" id="dai" /> vip
+										<input type="text" value="-1" id="vip" />
+									</div>
+									<div>会员价格为-1时表示会员价格按会员等级折扣率计算。你也可以为每个等级指定一个固定价格</div>
+								</div>
+							</li>
+							<li>
+								<p>商品优惠价格 :</p>
+								<div class="jj">
+									<div class="xiao">
+										[+]优惠数量<input type="text" /> 优惠价格
+										<input type="text" />
+									</div>
+									<div>购买数量达到优惠数量时享受的优惠价格</div>
+								</div>
+							</li>
+							<li>
+								<p>市场售价 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="0" />
+										<button>取整数</button>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>虚拟销量 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" id="goodSales" />
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>赠送消费积分数 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="-1" />
+									</div>
+									<div>购买该商品时赠送消费积分数,-1表示按商品价格赠送</div>
+								</div>
+							</li>
+							<li>
+								<p>赠送等级积分数 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="-1" />
+									</div>
+									<div>购买该商品时赠送等级积分数,-1表示按商品价格赠送</div>
+								</div>
+							</li>
+							<li>
+								<p>积分购买金额 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="0" />
+									</div>
+									<div>(此处需填写金额)购买该商品时最多可以使用积分的金额</div>
+								</div>
+							</li>
+							<li>
+								<p><input type="checkbox" name="" id="" value="" style="display: inline-block;margin-right: 4px;" />促销价 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="0" />
+									</div>
+									<div>(此处需填写金额)购买该商品时最多可以使用积分的金额</div>
+								</div>
+							</li>
+							<li>
+								<p>上传商品图片 :</p>
+								<div class="jj">
+									<div>
+										<input type="file" value="上传图片" id="goodImg" />
+									</div>
+								</div>
+							</li>
+							<div class="btn">
+								<p onclick="sub()">确定</p>
+								<p>重置</p>
+							</div>
+						</ul>
+					</div>
+					<!--详细描述！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+					<div class="qie">
+
+						<ul class="detail">
+							<textarea class="wen">请描述商品详细信息</textarea>
+							<div class="btn2">
+								<p>确定</p>
+								<p>重置</p>
+							</div>
+						</ul>
+					</div>
+					<!--其他信息！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+					<div class="qie">
+
+						<ul class="other">
+							<li>
+								<p>商品重量 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="0" />
+										<select>
+											<option value="">千克</option>
+											<option value="">克</option>
+										</select>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>商品库存数量 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="1" id="goodStock" />
+									</div>
+									<div>库存在商品为虚货或商品存在货品时为不可编辑状态，库存数值取决于其虚货数量或货品数量</div>
+								</div>
+							</li>
+							<li>
+								<p>库存警告数量 :</p>
+								<div class="jj">
+									<div class="duan">
+										<input type="text" value="1" />
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>加入推荐 :</p>
+								<div class="jj">
+									<div>
+										<input type="checkbox" /><span>精品 </span>
+										<input type="checkbox" />新品
+										<input type="checkbox" />热销
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>上架 :</p>
+								<div class="jj">
+									<div>
+										<input type="checkbox" /><span>打勾表示允许销售，否则不允许销售。 </span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>能作为普通商品销售 :</p>
+								<div class="jj">
+									<div>
+										<input type="checkbox" />打勾表示能作为普通商品销售，否则只能作为配件或赠品销售。
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>是否为免运费商品 :</p>
+								<div class="jj">
+									<div>
+										<input type="checkbox" /> 打勾表示此商品不会产生运费花销，否则按照正常运费计算。，否则只能作为配件或赠品销售。
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>商品关键词 :</p>
+								<div class="jj">
+									<div>
+										<input type="text" /> 用空格分隔
+									</div>
+								</div>
+							</li>
+							<li>
+								<p>商品简单描述 :</p>
+								<div class="jj">
+									<div class="de">
+										<textarea></textarea>
+									</div>
+								</div>
+							</li>
+							<li>
+								<p> 商家备注 :</p>
+								<div class="jj">
+									<div class="de">
+										<textarea></textarea>
+									</div>
+									<div>仅供商家自己看的信息</div>
+								</div>
+							</li>
+							<div class="btn_other">
+								<p>确定</p>
+								<p>重置</p>
+							</div>
+						</ul>
+					</div>
+					<!--商品属性！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+					<div class="qie">
+
+						<ul class="shu">
+							<li>
+								<p>商品类型 :</p>
+								<div class="jj">
+									<div class="de">
+										<select>
+											<option value="">请选择商品类型</option>
+											<option value="">数码</option>
+											<option value="">音乐</option>
+											<option value="">化妆品</option>
+										</select>
+									</div>
+									<div>请选择商品的所属类型，进而完善此商品的属性</div>
+								</div>
+							</li>
+							<div class="btn_shu">
+								<p>确定</p>
+								<p>重置</p>
+							</div>
+						</ul>
+					</div>
+					<!--商品相册！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！-->
+					<div class="qie">
+						<ul class="img_up">
+							<div class="img_top">
+								[+]图片描述<input type="text" />上传图片<input type="file" />
+							</div>
+							<div class="img_bottom">
+								<p>确定</p>
+								<p>重置</p>
+							</div>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+
+</html>

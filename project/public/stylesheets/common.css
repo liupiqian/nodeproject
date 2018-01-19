@@ -1,0 +1,5 @@
+html,body,p,input,img,ul,li,dl,dt,dd,form,fieldset,legend,h1,h2,h3,h4,h5,h6,figure,figcaption{margin: 0;padding: 0;}
+img{display: block;border:0;}
+ul,li,ol{list-style: none;}
+a,u{text-decoration: none;}
+input{outline: none;}
